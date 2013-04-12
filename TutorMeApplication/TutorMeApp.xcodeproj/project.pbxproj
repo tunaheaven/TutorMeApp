@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3EB21D170F66B0003E0F3D /* CustomTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3EB21C170F66B0003E0F3D /* CustomTable.m */; };
+		0CC0B27C170F5E88008FF60E /* LoginConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC0B27B170F5E88008FF60E /* LoginConnection.m */; };
+		0CC0B27F170F5EA4008FF60E /* RegisterConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC0B27E170F5EA4008FF60E /* RegisterConnection.m */; };
+		4B8B3D3C16E2EE0E00DDBB6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8B3D3B16E2EE0E00DDBB6A /* UIKit.framework */; };
+		4B8B3D3E16E2EE0E00DDBB6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8B3D3D16E2EE0E00DDBB6A /* Foundation.framework */; };
+		4B8B3D4016E2EE0E00DDBB6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8B3D3F16E2EE0E00DDBB6A /* CoreGraphics.framework */; };
+		4B8B3D4616E2EE0E00DDBB6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B3D4416E2EE0E00DDBB6A /* InfoPlist.strings */; };
+		4B8B3D4816E2EE0E00DDBB6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B3D4716E2EE0E00DDBB6A /* main.m */; };
+		4B8B3D4C16E2EE1000DDBB6A /* TutorMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B3D4B16E2EE1000DDBB6A /* TutorMeAppDelegate.m */; };
+		4B8B3D4E16E2EE1000DDBB6A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B3D4D16E2EE1000DDBB6A /* Default.png */; };
+		4B8B3D5016E2EE1000DDBB6A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B3D4F16E2EE1000DDBB6A /* Default@2x.png */; };
+		4B8B3D5216E2EE1000DDBB6A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B3D5116E2EE1000DDBB6A /* Default-568h@2x.png */; };
+		4B8B3D5816E2EE1000DDBB6A /* TutorMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B3D5716E2EE1000DDBB6A /* TutorMeViewController.m */; };
+		4B8B3D5F16E2F26300DDBB6A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B3D5E16E2F26300DDBB6A /* MainStoryboard.storyboard */; };
+		D02A800216FFABF900A78298 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02A800116FFABF900A78298 /* LoginViewController.m */; };
+		D02A800517001E1000A78298 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02A800417001E1000A78298 /* RegisterViewController.m */; };
+		D089A3F816FCB81E0086170B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D089A3F716FCB81E0086170B /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C3EB21B170F66B0003E0F3D /* CustomTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTable.h; sourceTree = "<group>"; };
+		0C3EB21C170F66B0003E0F3D /* CustomTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTable.m; sourceTree = "<group>"; };
+		0CC0B27A170F5E88008FF60E /* LoginConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginConnection.h; sourceTree = SOURCE_ROOT; };
+		0CC0B27B170F5E88008FF60E /* LoginConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginConnection.m; sourceTree = SOURCE_ROOT; };
+		0CC0B27D170F5EA4008FF60E /* RegisterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterConnection.h; sourceTree = SOURCE_ROOT; };
+		0CC0B27E170F5EA4008FF60E /* RegisterConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterConnection.m; sourceTree = SOURCE_ROOT; };
+		4B8B3D3816E2EE0E00DDBB6A /* TutorMeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorMeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8B3D3B16E2EE0E00DDBB6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B8B3D3D16E2EE0E00DDBB6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B8B3D3F16E2EE0E00DDBB6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B8B3D4316E2EE0E00DDBB6A /* TutorMeApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TutorMeApp-Info.plist"; sourceTree = "<group>"; };
+		4B8B3D4516E2EE0E00DDBB6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B8B3D4716E2EE0E00DDBB6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B8B3D4916E2EE0F00DDBB6A /* TutorMeApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TutorMeApp-Prefix.pch"; sourceTree = "<group>"; };
+		4B8B3D4A16E2EE0F00DDBB6A /* TutorMeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorMeAppDelegate.h; sourceTree = "<group>"; };
+		4B8B3D4B16E2EE1000DDBB6A /* TutorMeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorMeAppDelegate.m; sourceTree = "<group>"; };
+		4B8B3D4D16E2EE1000DDBB6A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4B8B3D4F16E2EE1000DDBB6A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4B8B3D5116E2EE1000DDBB6A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4B8B3D5616E2EE1000DDBB6A /* TutorMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorMeViewController.h; sourceTree = "<group>"; };
+		4B8B3D5716E2EE1000DDBB6A /* TutorMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorMeViewController.m; sourceTree = "<group>"; };
+		4B8B3D5E16E2F26300DDBB6A /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D02A800016FFABF900A78298 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = SOURCE_ROOT; };
+		D02A800116FFABF900A78298 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = SOURCE_ROOT; };
+		D02A800317001E1000A78298 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = SOURCE_ROOT; };
+		D02A800417001E1000A78298 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = SOURCE_ROOT; };
+		D089A3F616FCB81E0086170B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D089A3F716FCB81E0086170B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B8B3D3516E2EE0E00DDBB6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8B3D3C16E2EE0E00DDBB6A /* UIKit.framework in Frameworks */,
+				4B8B3D3E16E2EE0E00DDBB6A /* Foundation.framework in Frameworks */,
+				4B8B3D4016E2EE0E00DDBB6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B8B3D2F16E2EE0D00DDBB6A = {
+			isa = PBXGroup;
+			children = (
+				0C3EB21B170F66B0003E0F3D /* CustomTable.h */,
+				0C3EB21C170F66B0003E0F3D /* CustomTable.m */,
+				D060751716FD69D30027A9E7 /* Connection */,
+				4B8B3D6016E3277F00DDBB6A /* TutorMe Server */,
+				4B8B3D4116E2EE0E00DDBB6A /* TutorMeApp */,
+				D060751216FD64190027A9E7 /* Register */,
+				D060751116FD63FA0027A9E7 /* Login */,
+				4B8B3D3A16E2EE0E00DDBB6A /* Frameworks */,
+				4B8B3D3916E2EE0E00DDBB6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B8B3D3916E2EE0E00DDBB6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B8B3D3816E2EE0E00DDBB6A /* TutorMeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B8B3D3A16E2EE0E00DDBB6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B8B3D3B16E2EE0E00DDBB6A /* UIKit.framework */,
+				4B8B3D3D16E2EE0E00DDBB6A /* Foundation.framework */,
+				4B8B3D3F16E2EE0E00DDBB6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B8B3D4116E2EE0E00DDBB6A /* TutorMeApp */ = {
+			isa = PBXGroup;
+			children = (
+				4B8B3D5E16E2F26300DDBB6A /* MainStoryboard.storyboard */,
+				4B8B3D4A16E2EE0F00DDBB6A /* TutorMeAppDelegate.h */,
+				4B8B3D4B16E2EE1000DDBB6A /* TutorMeAppDelegate.m */,
+				4B8B3D5616E2EE1000DDBB6A /* TutorMeViewController.h */,
+				4B8B3D5716E2EE1000DDBB6A /* TutorMeViewController.m */,
+				4B8B3D4216E2EE0E00DDBB6A /* Supporting Files */,
+				D089A3F616FCB81E0086170B /* AppDelegate.h */,
+				D089A3F716FCB81E0086170B /* AppDelegate.m */,
+			);
+			path = TutorMeApp;
+			sourceTree = "<group>";
+		};
+		4B8B3D4216E2EE0E00DDBB6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B8B3D4316E2EE0E00DDBB6A /* TutorMeApp-Info.plist */,
+				4B8B3D4416E2EE0E00DDBB6A /* InfoPlist.strings */,
+				4B8B3D4716E2EE0E00DDBB6A /* main.m */,
+				4B8B3D4916E2EE0F00DDBB6A /* TutorMeApp-Prefix.pch */,
+				4B8B3D4D16E2EE1000DDBB6A /* Default.png */,
+				4B8B3D4F16E2EE1000DDBB6A /* Default@2x.png */,
+				4B8B3D5116E2EE1000DDBB6A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B8B3D6016E3277F00DDBB6A /* TutorMe Server */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "TutorMe Server";
+			path = TutorMeApp;
+			sourceTree = "<group>";
+		};
+		D060751116FD63FA0027A9E7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D02A800016FFABF900A78298 /* LoginViewController.h */,
+				D02A800116FFABF900A78298 /* LoginViewController.m */,
+			);
+			name = Login;
+			path = ../../../Desktop/Login;
+			sourceTree = "<group>";
+		};
+		D060751216FD64190027A9E7 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				D02A800317001E1000A78298 /* RegisterViewController.h */,
+				D02A800417001E1000A78298 /* RegisterViewController.m */,
+			);
+			name = Register;
+			path = ../../../Desktop/Register;
+			sourceTree = "<group>";
+		};
+		D060751716FD69D30027A9E7 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				0CC0B27A170F5E88008FF60E /* LoginConnection.h */,
+				0CC0B27B170F5E88008FF60E /* LoginConnection.m */,
+				0CC0B27D170F5EA4008FF60E /* RegisterConnection.h */,
+				0CC0B27E170F5EA4008FF60E /* RegisterConnection.m */,
+			);
+			name = Connection;
+			path = ../../../Desktop/Connection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B8B3D3716E2EE0E00DDBB6A /* TutorMeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8B3D5B16E2EE1000DDBB6A /* Build configuration list for PBXNativeTarget "TutorMeApp" */;
+			buildPhases = (
+				4B8B3D3416E2EE0E00DDBB6A /* Sources */,
+				4B8B3D3516E2EE0E00DDBB6A /* Frameworks */,
+				4B8B3D3616E2EE0E00DDBB6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TutorMeApp;
+			productName = TutorMeApp;
+			productReference = 4B8B3D3816E2EE0E00DDBB6A /* TutorMeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B8B3D3016E2EE0D00DDBB6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TutorMe;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = com.masonw;
+			};
+			buildConfigurationList = 4B8B3D3316E2EE0D00DDBB6A /* Build configuration list for PBXProject "TutorMeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B8B3D2F16E2EE0D00DDBB6A;
+			productRefGroup = 4B8B3D3916E2EE0E00DDBB6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B8B3D3716E2EE0E00DDBB6A /* TutorMeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B8B3D3616E2EE0E00DDBB6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8B3D4616E2EE0E00DDBB6A /* InfoPlist.strings in Resources */,
+				4B8B3D4E16E2EE1000DDBB6A /* Default.png in Resources */,
+				4B8B3D5016E2EE1000DDBB6A /* Default@2x.png in Resources */,
+				4B8B3D5216E2EE1000DDBB6A /* Default-568h@2x.png in Resources */,
+				4B8B3D5F16E2F26300DDBB6A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B8B3D3416E2EE0E00DDBB6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8B3D4816E2EE0E00DDBB6A /* main.m in Sources */,
+				4B8B3D4C16E2EE1000DDBB6A /* TutorMeAppDelegate.m in Sources */,
+				4B8B3D5816E2EE1000DDBB6A /* TutorMeViewController.m in Sources */,
+				D089A3F816FCB81E0086170B /* AppDelegate.m in Sources */,
+				D02A800216FFABF900A78298 /* LoginViewController.m in Sources */,
+				D02A800517001E1000A78298 /* RegisterViewController.m in Sources */,
+				0CC0B27C170F5E88008FF60E /* LoginConnection.m in Sources */,
+				0CC0B27F170F5EA4008FF60E /* RegisterConnection.m in Sources */,
+				0C3EB21D170F66B0003E0F3D /* CustomTable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B8B3D4416E2EE0E00DDBB6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8B3D4516E2EE0E00DDBB6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B8B3D5916E2EE1000DDBB6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B8B3D5A16E2EE1000DDBB6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B8B3D5C16E2EE1000DDBB6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TutorMeApp/TutorMeApp-Prefix.pch";
+				INFOPLIST_FILE = "TutorMeApp/TutorMeApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B8B3D5D16E2EE1000DDBB6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TutorMeApp/TutorMeApp-Prefix.pch";
+				INFOPLIST_FILE = "TutorMeApp/TutorMeApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B8B3D3316E2EE0D00DDBB6A /* Build configuration list for PBXProject "TutorMeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8B3D5916E2EE1000DDBB6A /* Debug */,
+				4B8B3D5A16E2EE1000DDBB6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8B3D5B16E2EE1000DDBB6A /* Build configuration list for PBXNativeTarget "TutorMeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8B3D5C16E2EE1000DDBB6A /* Debug */,
+				4B8B3D5D16E2EE1000DDBB6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B8B3D3016E2EE0D00DDBB6A /* Project object */;
+}
